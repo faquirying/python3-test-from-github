@@ -11,4 +11,5 @@ inputs.send_keys("老边饺子")
 button = chrome.find_element_by_id("su")
 button.click()
 time.sleep(10)
+# 关闭浏览器
 chrome.close()
